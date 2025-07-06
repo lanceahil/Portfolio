@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lance Muthalib Ahil- Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      .reveal {
+        opacity: 0;
+        transform: translateY(40px);
+        transition: opacity 1.5s cubic-bezier(0.4,0,0.2,1), transform 1.5s cubic-bezier(0.4,0,0.2,1);
+      }
+      .reveal.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header-container">
+        <div class="header-flex">
+          
+          <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact" class="btn-primary nav-contact-btn">Contact</a>
+          </nav>
+          <div>
+            <button class="menu-btn">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero-section">
+        <div class="hero-container">
+          <div class="hero-grid">
+            <!-- Left Side - Content -->
+            <div class="reveal">
+              <h2 class="hero-title reveal">
+                <span class="hero-hi">
+                  Hi, I'm
+                </span>
+                <br />
+                <span class="hero-name">
+                  Lance Muthalib Ahil
+                </span>
+              </h2>
+              
+              <p class="hero-desc reveal">
+                A passionate undergraduate in Computer Science, embarking on this journey just three years ago. Currently, I contribute as the archivist in our latest project, ensuring knowledge and progress are well-documented for the team.
+              </p>
+              
+              <div class="hero-btns reveal">
+                <a href="#contact" class="btn-primary">
+                  Hire Me
+                  <i class="fas fa-briefcase" style="margin-left: 0.5rem;"></i>
+                </a>
+                <a href="assets/AHIL_CV (1).pdf" download class="btn-secondary">
+                  Download CV
+                  <i class="fas fa-download" style="margin-left: 0.5rem;"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Right Side - Profile Image -->
+            <div class="hero-img-container reveal">
+              <div class="hero-img">
+                <img src="assets/images/lance2.jpeg" alt="Lance">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about-section">
+        <div class="about-container">
+          <div class="about-title reveal">About Me</div>
+          <div class="about-grid">
+            <!-- Profile Image -->
+            <div class="about-img-container reveal">
+              <div class="about-img">
+                <img src="assets/images/lanceabout.png" alt="Lance">
+              </div>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 1.5rem; align-items: flex-start;" class="reveal">
+              <p class="about-desc">
+                A passionate undergraduate in Computer Science, embarking on this journey just three years ago. Currently, I contribute as the archivist in our latest project, ensuring knowledge and progress are well-documented for the team. I thrive on continuous learning and enjoy collaborating with others to solve complex problems. My goal is to leverage my skills and curiosity to make a positive impact in every project I join.
+              </p>
+              <a href="assets/AHIL_CV (1).pdf" download class="about-btn" style="margin-top: 0;">
+                Download CV
+                <i class="fas fa-download" style="margin-left: 0.5rem;"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills-section">
+        <div class="skills-container">
+          <div class="skills-title reveal">Skills</div>
+          
+          <div class="skills-grid">
+            <!-- Programming Languages -->
+            <div class="skill-card">
+              <div class="skill-card-title">
+                <h4>Programming Languages</h4>
+              </div>
+              <div>
+                <div>
+                  <div class="skill-bar-label">
+                    <span>C++</span>
+                    <span class="percent">30%</span>
+                  </div>
+                  <div class="skill-bar-bg">
+                    <div class="skill-bar" style="width: 30%"></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="skill-bar-label">
+                    <span>Python</span>
+                    <span class="percent">30%</span>
+                  </div>
+                  <div class="skill-bar-bg">
+                    <div class="skill-bar" style="width: 35%"></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="skill-bar-label">
+                    <span>HTML</span>
+                    <span class="percent">85%</span>
+                  </div>
+                  <div class="skill-bar-bg">
+                    <div class="skill-bar" style="width: 45%"></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="skill-bar-label">
+                    <span>CSS</span>
+                    <span class="percent">70%</span>
+                  </div>
+                  <div class="skill-bar-bg">
+                    <div class="skill-bar" style="width: 45%"></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="skill-bar-label">
+                    <span>MySQL</span>
+                    <span class="percent">30%</span>
+                  </div>
+                  <div class="skill-bar-bg">
+                    <div class="skill-bar" style="width: 30%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Soft Skills -->
+            <div class="skill-card soft-skills">
+              <div class="skill-card-title">
+                <h4>Soft Skills</h4>
+              </div>
+              <ul class="soft-skills-list">
+                <li>Teamwork & Collaboration</li>
+                <li>Critical Thinking</li>
+                <li>Active Listening</li>
+                <li>Work ethic</li>
+              </ul>
+              <div class="soft-skills-addition">Addition: Microsoft Office Skills</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio-section">
+        <div class="portfolio-container">
+          <div class="portfolio-title reveal">Projects</div>
+          <div class="portfolio-desc reveal">Most recent work</div>
+          <div class="portfolio-grid">
+            <!-- GitGud Experience as Portfolio Card -->
+            <div class="portfolio-card">
+              <div class="portfolio-card-content">
+                <div class="portfolio-card-header">
+                  <i class="fas fa-utensils"></i>
+                  <div>
+                    <h4>GitGud</h4>
+                    <p>2024 </p>
+                  </div>
+                </div>
+                <div class="portfolio-card-desc">
+                  <ul style="margin-left: 1.25rem;">
+                    <li>Our own company that aims to lighten the workload in food parks by providing a way to place orders on your phones, effectively lessening the lines queued up on each food stall.</li>
+                    <li>My main purpose within our company is to test our system myself and provide insight on what we can improve in order to make our system much more accessible and user friendly.</li>
+                  </ul>
+                </div>
+                <div class="portfolio-links">
+                  <a href="https://gitgud.xscpry.com/index.php?fbclid=IwY2xjawLXGrhleHRuA2FlbQIxMQABHruFBtvvU1KPn4dO-RCENnUcDiTkVFD9FQ4AraZtLdmPUojlCq_vYpI4p5zD_aem_nFu3CIp-7FbxgBTtWlOtWA" target="_blank" class="portfolio-link alt">
+                    <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>
+                    Live Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Ecommerce Project: Chocolate Selling Online -->
+            <div class="portfolio-card">
+              <div class="portfolio-card-content">
+                <div class="portfolio-card-header">
+                  <i class="fas fa-shopping-cart"></i>
+                  <div>
+                    <h4>Chocolate E-commerce Website</h4>
+                    <p>2023</p>
+                  </div>
+                </div>
+                <div class="portfolio-card-desc">
+                  <p>
+                    A simple and visually appealing e-commerce website for selling chocolates online, built with HTML and CSS. The project features product listings, a shopping cart interface, and a responsive design for a smooth user experience.
+                  </p>
+                  <div class="portfolio-tags">
+                    <span class="portfolio-tag">HTML</span>
+                    <span class="portfolio-tag alt">CSS</span>
+                    <span class="portfolio-tag alt">Javascript</span>
+                    <span class="portfolio-tag alt">E-commerce</span>
+                    <span class="portfolio-tag alt">Chocolate</span>
+                  </div>
+                  <div class="portfolio-links">
+                    <a href="https://github.com/lanceahil/CS-Electives" target="_blank" class="portfolio-link">
+                      <i class="fab fa-github" style="margin-right: 0.5rem;"></i>
+                      GitHub Repository
+                    </a>
+                    <a href="https://lanceahil.github.io/CS-Electives/" target="_blank" class="portfolio-link alt">
+                      <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>
+                      Live Demo
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact-section">
+        <div class="contact-container">
+          <div class="contact-title reveal" style="color: #60a5fa !important;">Contact Me</div>
+          <div class="contact-desc reveal">Get in touch</div>
+          <div class="contact-grid">
+            <!-- Contact Information -->
+            <div class="contact-info-list">
+              <div class="contact-info-card">
+                <div style="display: flex; align-items: center;">
+                  <i class="fas fa-phone"></i>
+                  <div>
+                    <h4>Phone</h4>
+                    <p>+639 06 731 8160</p>
+                  </div>
+                </div>
+              </div>
+              <div class="contact-info-card">
+                <div style="display: flex; align-items: center;">
+                  <i class="fas fa-envelope"></i>
+                  <div>
+                    <h4>Email</h4>
+                    <p> ahillance@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+              <div class="contact-info-card">
+                <div style="display: flex; align-items: center;">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div>
+                    <h4>Address</h4>
+                    <p>Baliwasan seaside, Zamboanga city</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-card">
+              <form class="contact-form">
+                <div>
+                  <label class="contact-label">Name</label>
+                  <input type="text" class="contact-input">
+                </div>
+                <div>
+                  <label class="contact-label">Email</label>
+                  <input type="email" class="contact-input">
+                </div>
+                <div>
+                  <label class="contact-label">Message</label>
+                  <textarea rows="5" class="contact-textarea"></textarea>
+                </div>
+                <button type="submit" class="contact-submit">
+                  Send Message
+                  <i class="fas fa-paper-plane" style="margin-left: 0.5rem;"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-flex">
+          <div>
+            <span class="footer-title">Lance Muthalib Ahil</span>
+            
+          </div>
+          <div class="footer-socials">
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Enhanced smooth scrolling for navigation links
+      document.addEventListener('DOMContentLoaded', function() {
+        // Smooth scrolling for all navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const href = this.getAttribute('href');
+            const target = document.querySelector(href);
+            
+            if (target) {
+              // Calculate offset for fixed header
+              const headerHeight = document.querySelector('header').offsetHeight;
+              const targetPosition = target.offsetTop - headerHeight - 20; // 20px extra padding
+              
+              window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+              });
+              
+              // Update active navigation link
+              updateActiveNavLink(href);
+            }
+          });
+        });
+
+        // Function to update active navigation link
+        function updateActiveNavLink(activeHref) {
+          const navLinks = document.querySelectorAll('nav a[href^="#"]');
+          navLinks.forEach(link => {
+            link.classList.remove('text-emerald-300', 'border-emerald-300');
+            link.classList.add('text-white');
+            if (link.getAttribute('href') === activeHref) {
+              link.classList.remove('text-white');
+              link.classList.add('text-emerald-300', 'border-emerald-300');
+            }
+          });
+        }
+
+        // Active navigation highlighting on scroll
+        window.addEventListener('scroll', () => {
+          const sections = document.querySelectorAll('section[id]');
+          const navLinks = document.querySelectorAll('nav a[href^="#"]');
+          const headerHeight = document.querySelector('header').offsetHeight;
+          
+          let current = '';
+          sections.forEach(section => {
+            const sectionTop = section.offsetTop - headerHeight - 100;
+            const sectionHeight = section.clientHeight;
+            if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
+              current = section.getAttribute('id');
+            }
+          });
+
+          navLinks.forEach(link => {
+            link.classList.remove('text-emerald-300', 'border-emerald-300');
+            link.classList.add('text-white');
+            if (link.getAttribute('href') === `#${current}`) {
+              link.classList.remove('text-white');
+              link.classList.add('text-emerald-300', 'border-emerald-300');
+            }
+          });
+        });
+
+        // Set initial active state
+        updateActiveNavLink('#home');
+
+        // Updated: Add .reveal to more elements
+        const revealEls = document.querySelectorAll('.skill-card, .portfolio-card, .contact-form-card, .contact-info-list, .reveal');
+        const revealOnScroll = (entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              console.log('Revealing:', entry.target); // Debug log
+              entry.target.classList.add('visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        };
+        const observer = new window.IntersectionObserver(revealOnScroll, { threshold: 0.15 });
+        revealEls.forEach(el => {
+          el.classList.add('reveal');
+          observer.observe(el);
+        });
+      });
+    </script>
+  </body>
+</html>
